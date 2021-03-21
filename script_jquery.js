@@ -1,5 +1,8 @@
 $(function(){
-    $('button').click(() => {
-            $('h1').hide();
+    $('#azul').click(() => {
+            $('p').css("color", "blue");
+        });
+    $('#vermelho').click(() => {
+            $('p').css("color", "red");
         });
 });
